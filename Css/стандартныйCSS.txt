@@ -64,40 +64,35 @@ select {
 /* ===================FONTS-start=================== */
 @font-face {
 	font-family: Montserrat;
-	src: url('../Fonts/Montserrat-Bold.eot');
-	src: local('☺'), url('../Fonts/Montserrat-Bold.woff') format('woff'), url('../Fonts/Montserrat-Bold.ttf') format('truetype'), url('../Fonts/Montserrat-Bold.svg') format('svg');
+	src: url('../Fonts/Montserrat-Bold.woff');
    font-weight: 700;
 	font-style: normal;
    font-display: swap;
 }
 @font-face {
 	font-family: Montserrat;
-	src: url('../Fonts/Montserrat-ExtraBold.eot');
-	src: local('☺'), url('../Fonts/Montserrat-ExtraBold.woff') format('woff'), url('../Fonts/Montserrat-ExtraBold.ttf') format('truetype'), url('../Fonts/Montserrat-ExtraBold.svg') format('svg');
+	src: url('../Fonts/Montserrat-ExtraBold.woff');
 	font-weight: 800;
 	font-style: normal;
    font-display: swap;
 }
 @font-face {
 	font-family: Montserrat;
-	src: url('../Fonts/Montserrat-Medium.eot');
-	src: local('☺'), url('../Fonts/Montserrat-Medium.woff') format('woff'), url('../Fonts/Montserrat-Medium.ttf') format('truetype'), url('../Fonts/Montserrat-Medium.svg') format('svg');
+	src: url('../Fonts/Montserrat-Medium.woff');
 	font-weight: 500;
 	font-style: normal;
    font-display: swap;
 }
 @font-face {
 	font-family: Montserrat;
-	src: url('../Fonts/Montserrat-Regular.eot');
-	src: local('☺'), url('../Fonts/Montserrat-Regular.woff') format('woff'), url('../Fonts/Montserrat-Regular.ttf') format('truetype'), url('../Fonts/Montserrat-Regular.svg') format('svg');
+	src: url('../Fonts/Montserrat-Regular.woff');
 	font-weight: normal;
 	font-style: normal;
    font-display: swap;
 }
 @font-face {
 	font-family: Montserrat;
-	src: url('../Fonts/Montserrat-SemiBold.eot');
-	src: local('☺'), url('../Fonts/Montserrat-SemiBold.woff') format('woff'), url('../Fonts/Montserrat-SemiBold.ttf') format('truetype'), url('../Fonts/Montserrat-SemiBold.svg') format('svg');
+	src: url('../Fonts/Montserrat-SemiBold.woff');
 	font-weight: 600;
 	font-style: normal;
    font-display: swap;
