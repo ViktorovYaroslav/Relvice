@@ -170,6 +170,7 @@ a{
    z-index: 50;
 }
 .header__container {
+   position: relative;
    min-height: 104px;
    display: -webkit-box;
    display: -ms-flexbox;
@@ -177,7 +178,6 @@ a{
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
-   
 }
 .header__logo {
    font-weight: 700;
@@ -196,7 +196,6 @@ a{
 }
 .header__menu {
    margin-left: 133px;
-   position: relative;
 }
 .burger {
    display: none;
@@ -1230,29 +1229,20 @@ a{
    }
    .menu__list{
       display: none;
+      position: absolute;
    }
    .menu__item:not(:last-child){
       margin: 0;
    }
    .burger:checked ~ .menu__list{
-      padding: 5px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      position: absolute;
+      width: 100%;
+      display: block;
       top: 100%;
       left: 50%;
       -webkit-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
               transform: translateX(-50%);
-      background: rgba(255, 255, 255, .7);
+      background: rgba(255, 255, 255, .8);
    }
    .burger__button > *:not(:last-child){
       margin-bottom: 10px;
@@ -1324,23 +1314,35 @@ a{
    .services {
       margin-top: -55px;
    }
+   .experience {
+      padding: 32px 0;
+  }
    .experience__container {
-      padding: 54px 15px;
+      padding: 32px 15px;
    }
    .experience__column {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 100%;
               flex: 1 1 100%;
    }
+   .practice {
+      padding: 20px 0 80px;
+  }
    .practice__container {
       padding: 30px 15px 30px;
    }
+   .we-are {
+      padding: 32px 0;
+  }
    .we-are__container {
-      padding: 50px 15px;
+      padding: 40px 15px;
    }
    .we-are__container > *:not(:last-child) {
       margin-bottom: 50px;
    }
+   .contact-us {
+      padding: 20px 0px;
+  }
    .contact__row {
       padding: 15px 10px;
    }
@@ -1349,6 +1351,9 @@ a{
    }
    .contact__send {
       padding: 5px;
+   }
+   .get {
+    padding: 16px 0 10px;
    }
    .get__container {
       padding: 40px 30px 70px;
